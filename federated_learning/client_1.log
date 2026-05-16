@@ -1,0 +1,38 @@
+[93mWARNING [0m:   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+[92mINFO [0m:      
+[92mINFO [0m:      Received: get_parameters message 16b1a471-410e-4253-a950-808b109f4199
+Client 1: sending parameters
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 65aed9a2-72d6-440c-bf11-37611f4abae5
+Client 1: training started
+Client 1: training finished
+Client 1: sending parameters
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message f12919e8-d078-4272-9cb1-4621531db8fa
+Client 1: evaluation started
+Client 1: accuracy = 0.8245
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message a9ca76db-4596-45b0-935b-8249eec456ed
+Client 1: training started
+Client 1: training finished
+Client 1: sending parameters
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 4f7bef61-e7fa-4b01-9fb9-0c0596a2e843
+Client 1: evaluation started
